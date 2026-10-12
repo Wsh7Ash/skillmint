@@ -1,0 +1,1 @@
+   14  markdown-tidy  [name, description, body]  examples/skills/markdown-tidy/SKILL.md

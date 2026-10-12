@@ -1,0 +1,8 @@
+examples/skills/broken-skill/SKILL.md
+  error [SK-004] SK-004 name 'Broken Skill!' is missing or not kebab-case
+  error [SK-006] SK-006 placeholder 'TODO' found:8
+  error [SK-006] SK-006 placeholder 'TBD' found:10
+  error [SK-007] SK-007 body has no '## ' heading
+  warning [SK-011] SK-011 description should say when to use the skill (contains none of: use when, trigger, when to, use for, called when)
+checked 2 file(s): 4 error(s), 1 warning(s)
+exit=1

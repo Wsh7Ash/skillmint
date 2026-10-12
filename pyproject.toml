@@ -1,0 +1,20 @@
+[project]
+name = "skillmint"
+version = "0.1.0"
+description = "Offline toolkit for authoring AI agent SKILL.md files: scaffold, lint, convert, search."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Wsh7Ash" }]
+keywords = ["ai-skills", "skillmd", "agents", "linter", "scaffold"]
+dependencies = []
+
+[project.scripts]
+skillmint = "skillmint.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

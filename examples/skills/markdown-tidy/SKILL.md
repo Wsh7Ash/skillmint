@@ -1,0 +1,37 @@
+---
+name: "markdown-tidy"
+description: "Use when the user wants consistent Markdown style fixes across a docs folder"
+category: "docs"
+triggers:
+  - tidy markdown
+  - normalize headings
+  - markdown style
+---
+
+# markdown-tidy
+
+## When to use this skill
+
+Use when the user wants consistent Markdown style fixes across a docs folder.
+
+## Workflow
+
+1. Ask which directory contains the Markdown files to tidy.
+2. Inventory headings, lists, and code fences; report inconsistencies before editing.
+3. Apply the agreed style rules one file at a time.
+4. Re-read each edited file and summarize the changes made.
+
+## Inputs
+
+- Path to a documentation directory.
+- Optional style preferences (heading style, list marker, fence language tags).
+
+## Output
+
+- A short summary per file: what changed and what was left alone.
+
+## Safety notes
+
+- Only operate on files the user owns or is authorized to modify.
+- Ask for confirmation before deleting or rewriting entire files.
+- Never embed secrets or credentials in skill output.

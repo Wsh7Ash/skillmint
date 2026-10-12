@@ -1,0 +1,39 @@
+{
+  "errors": 4,
+  "files": 2,
+  "findings": [
+    {
+      "file": "examples/skills/broken-skill/SKILL.md",
+      "message": "SK-004 name 'Broken Skill!' is missing or not kebab-case",
+      "rule": "SK-004",
+      "severity": "error"
+    },
+    {
+      "file": "examples/skills/broken-skill/SKILL.md",
+      "line": 8,
+      "message": "SK-006 placeholder 'TODO' found",
+      "rule": "SK-006",
+      "severity": "error"
+    },
+    {
+      "file": "examples/skills/broken-skill/SKILL.md",
+      "line": 10,
+      "message": "SK-006 placeholder 'TBD' found",
+      "rule": "SK-006",
+      "severity": "error"
+    },
+    {
+      "file": "examples/skills/broken-skill/SKILL.md",
+      "message": "SK-007 body has no '## ' heading",
+      "rule": "SK-007",
+      "severity": "error"
+    },
+    {
+      "file": "examples/skills/broken-skill/SKILL.md",
+      "message": "SK-011 description should say when to use the skill (contains none of: use when, trigger, when to, use for, called when)",
+      "rule": "SK-011",
+      "severity": "warning"
+    }
+  ],
+  "warnings": 1
+}
